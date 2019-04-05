@@ -1,2 +1,13 @@
-# highlighter
-This application highlights strings based on the selected highlights and the priorities of each highlight
+# Highlighter
+
+This application highlights strings based on the objects in the highlights array
+
+Each object in the array contains a:
+ - startOffset: Where each highlight should begin 
+ - endOffset: Where each highlight should end
+ - color: The background color of each highlight
+ - priority: The priority of each highlight
+	 - Lower numbers have higher priority
+	 - If an offset overlaps with another offset, the highlight with the higher priority will appear on top
+
+ 

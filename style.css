@@ -1,0 +1,5 @@
+/* rounds corners and sets padding for highlights */
+span {
+    border-radius: .2em;
+    padding: .1em;
+}
