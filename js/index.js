@@ -34,6 +34,7 @@ const highlights = [
   }
 ];
 
+// sets text using the string const
 function setText() {
   let plainText = $('.highlight');
   plainText.text('You will deliver new technology with an adorable puppy. Perfect!');
