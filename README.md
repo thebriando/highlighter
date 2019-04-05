@@ -1,6 +1,9 @@
 # Highlighter
+## Link to published website: 
 
-This application highlights strings based on the objects in the highlights array
+This application highlights strings based on the objects in the highlights array.
+
+String input used in this example: "You will deliver new technology with an adorable puppy. Perfect!"
 
 Each object in the array contains a:
  - startOffset: Where each highlight should begin 

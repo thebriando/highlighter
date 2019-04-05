@@ -1,3 +1,4 @@
+// inputs
 const string =
   "You will deliver new technology with an adorable puppy. Perfect!";
 const highlights = [
@@ -34,7 +35,11 @@ const highlights = [
 ];
 
 function highlight() {
+  // sets values to string constant
+  let plainText = document.querySelector('.highlight');
+  plainText.textContent = 'You will deliver new technology with an adorable puppy. Perfect!';
   let textToHighlight = document.querySelector(".result");
+  textToHighlight.textContent = plainText.textContent;
   let textContent = textToHighlight.textContent;
   // stores each substring based on each startOffset and endOffset
   let array = [];
@@ -51,9 +56,11 @@ function highlight() {
         }
       }
     }
+    // pushes substring from start point to end point
     array.push(textContent.slice(start, end));
   }
   for (let j = 0; j < array.length; j++) {
+    // creates span for highlights
     let span = document.createElement("span");
     span.textContent = array[j];
     span.style.backgroundColor = highlights[j].color;
