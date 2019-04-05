@@ -1,6 +1,6 @@
 # Highlighter
 
-## Link to published website:
+## [Link to published website](https://thebriando.github.io/highlighter/index.html)
   
 This application highlights strings based on the objects in the highlights array.
 
